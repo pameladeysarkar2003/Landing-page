@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaaSify - Modern Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons for icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">SaaSify</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#features" class="nav__link">Features</a></li>
+                    <li class="nav__item"><a href="#testimonials" class="nav__link">Testimonials</a></li>
+                </ul>
+                <i class='bx bx-x nav__close' id="nav-close"></i>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home/Hero Section -->
+        <section class="home container" id="home">
+            <div class="home__content">
+                <h1 class="home__title animate-fade-in">Elevate Your Business with Our Solution</h1>
+                <p class="home__description animate-fade-in">We provide the best tools to help you grow, manage, and scale your business effortlessly.</p>
+                <a href="#" class="button animate-fade-in">Get Started Free</a>
+            </div>
+            <img src="assets/images/hero-illustration.svg" alt="Business solution illustration" class="home__img animate-fade-in">
+        </section>
+
+        <!-- Features Section -->
+        <section class="features container section" id="features">
+            <h2 class="section__title">Why Choose Us?</h2>
+            <div class="features__grid">
+                <div class="feature__card animate-fade-in">
+                    <i class='bx bxs-dashboard feature__icon'></i>
+                    <h3 class="feature__title">Intuitive Dashboard</h3>
+                    <p>Manage everything from one simple, clean, and powerful dashboard.</p>
+                </div>
+                <div class="feature__card animate-fade-in">
+                    <i class='bx bxs-zap feature__icon'></i>
+                    <h3 class="feature__title">Blazing Fast</h3>
+                    <p>Our infrastructure is optimized for speed, ensuring a seamless experience.</p>
+                </div>
+                <div class="feature__card animate-fade-in">
+                    <i class='bx bxs-lock-alt feature__icon'></i>
+                    <h3 class="feature__title">Secure by Design</h3>
+                    <p>Your data is protected with enterprise-grade security and encryption.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials container section" id="testimonials">
+            <h2 class="section__title">What Our Clients Say</h2>
+            <div class="testimonial__card animate-fade-in">
+                <p class="testimonial__quote">"SaaSify transformed our workflow. We're more productive than ever!"</p>
+                <div class="testimonial__author">
+                    <img src="https://i.pravatar.cc/50?img=1" alt="Author photo" class="author__img">
+                    <div class="author__info">
+                        <span class="author__name">Jane Doe</span>
+                        <span class="author__title">CEO, TechCorp</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <p>© 2024 SaaSify. All rights reserved.</p>
+            <div class="footer__socials">
+                <a href="#" class="social__link"><i class='bx bxl-facebook'></i></a>
+                <a href="#" class="social__link"><i class='bx bxl-twitter'></i></a>
+                <a href="#" class="social__link"><i class='bx bxl-instagram'></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
